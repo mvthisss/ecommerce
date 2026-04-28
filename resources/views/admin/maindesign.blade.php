@@ -119,7 +119,8 @@
         <section class="no-padding-top no-padding-bottom">
          @yield('dashboard')
          @yield('add_category')
-         @yield('view_category')
+         @yield('view_category')  
+         @yield('update_category')
         </section>
         
         <footer class="footer">
