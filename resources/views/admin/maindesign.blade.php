@@ -100,11 +100,11 @@
                   </ul>
                 </li>   
 
-                <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Example  </a>
+                <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Product  </a>
                   <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                    <li><a href="#">Page</a></li>
-                    <li><a href="#">Page</a></li>
-                    <li><a href="#">Page</a></li>
+                    <li><a href="{{route('admin.addproduct')}}">Add product</a></li>
+                    <li><a href="{{route('admin.viewproduct')}}">View Product</a></li>
+                    <li><a href="{{route('admin.vieworder')}}">View order</a></li>
                   </ul>
                 </li>
         </ul><span class="heading">Extras</span>
@@ -121,6 +121,7 @@
          @yield('add_category')
          @yield('view_category')  
          @yield('update_category')
+         @yield('add_product')
         </section>
         
         <footer class="footer">
